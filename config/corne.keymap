@@ -5,6 +5,10 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&mt {
+    tapping-term-ms = <400>;
+};
+
 / {
     behaviors {
         td0: td0 {
@@ -28,7 +32,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt ESC TAB     &mt 1 Q    &mt 2 W  &mt 3 E     &mt 4 R  &mt 5 T                      &kp UP_ARROW          &mt 6 Y        &mt 7 U    &mt 8 I       &mt 9 O    &mt 0 P     &kp BSPC
+&mt ESC TAB     &mt N1 Q    &mt N2 W  &mt N3 E     &mt N4 R  &mt N5 T                      &kp UP_ARROW          &mt N6 Y        &mt N7 U    &mt N8 I       &mt N9 O    &mt N0 P     &kp BSPC
 &kp LCTRL   &kp A    &kp S  &kp D     &kp F  &kp G                      &kp DOWN_ARROW        &kp H        &kp J    &kp K       &kp L    &kp SEMI  &mt ENTER SQT
 &td0        &kp Z    &kp X  &kp C     &kp V  &kp B                      &kp LEFT_ARROW        &kp N        &kp M    &kp COMMA   &kp DOT  &kp FSLH  &mt RSHFT ESC
                &kp C_MUTE      &kp LGUI  &lt 1 SPACE  &kp SPACE             &kp RIGHT_ARROW       &lt 3 ENTER  &mo 2    &kp RALT
