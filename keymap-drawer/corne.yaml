@@ -42,7 +42,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:volume-off$$
   - LGUI
-  - NUMBER
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: Fn}
